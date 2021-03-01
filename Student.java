@@ -26,4 +26,15 @@ class Student {
   void setMajor(String theMajor) {
     major = theMajor;
   }
+  
+  void print(){
+    System.out.println("The student's name is " +
+    name);
+    System.out.println("The student's GPA is " + gpa);
+    System.out.println("The student's major is " + major);
   }
+
+  
+
+  }
+  
